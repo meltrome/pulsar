@@ -1,2 +1,2 @@
 # pulsar
-udemy course. watch page. 
+udemy course. clock page. 
