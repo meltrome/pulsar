@@ -1,0 +1,36 @@
+.feedback {
+  .title{
+  padding-bottom: 20px;
+  }
+  hr {
+    background-color: #f6f6f6;
+    border-bottom: none;
+  }
+  &-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    img {
+      width: 170px;
+      height: auto;
+    }
+    &__descr {
+      width: 650px;
+      h4 {
+        font-weight: 700;
+        font-size: 18px;
+      }
+      h5 {
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 300;
+      }
+    }
+  }
+}
