@@ -52,6 +52,7 @@ $(document).ready(function(){
     $('[data-modal=consultation]').on('click', function () {
         $('.overlay, #consultation').fadeIn('slow');
     });
+    
     $('.modal__close').on('click', function () {
         $('.overlay,  #consultation, #thanks, #order').fadeOut('slow');
     });
@@ -98,4 +99,12 @@ $(document).ready(function(){
 
     //mask
     $('input[name=phone]').mask("+7 (999) 999-99-99");
+
+    $('form').submit(function(e) {
+        e.preventDefault();
+        $.ajax({
+            type: "POST",
+            
+        })
+    });
 });
