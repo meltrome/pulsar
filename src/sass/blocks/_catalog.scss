@@ -135,6 +135,10 @@
         transform: translateX(-100%);
         margin-right: 0px;
       }
+      ul {
+        padding-left: 0px;
+        list-style-type: none;
+      }
       li {
         position: relative;
         color:#555555;
